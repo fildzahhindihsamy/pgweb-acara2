@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        main {
+            margin-top: 56px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">France</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#description">Description</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#arrondissementsofParis">Arrondissements of Paris</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#population">Population</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#website">Website</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galery">Galery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#map">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#criticandsuggestions">Critic and Suggestions</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#producer" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Producer</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container border border-warning rounded">
+        </div>
+        <div class="alert alert-warning text-center" role="alert">
+            <h1>Paris</h1>
+            <h4>Capital of France</h4>
+        </div>
+
+        <div class="row">
+            <div class="col-6 offset-3">
+
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/Paris 1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Paris 2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Paris 3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-header alert alert-warning">
+                <h4 id="description">Description</h4>
+
+            </div>
+            <p>
+                Paris, the capital city of France, is one of the world's most iconic and culturally rich cities, often
+                referred to as "The City of Light." Known for its romantic ambiance, Paris is home to some of the
+                globe's most famous landmarks, such as the Eiffel Tower, Notre-Dame Cathedral, Arc de Triomphe, and the
+                Louvre Museum. The city's architecture showcases a blend of historic styles, including Gothic,
+                Renaissance, and Baroque, alongside modernist designs, giving Paris its distinctive and elegant
+                appearance. As a cultural and artistic hub, Paris has long been a center for art, fashion, and
+                literature, attracting artists, writers, and thinkers from around the world. Its reputation as a
+                gastronomic capital is well-earned, with a rich culinary scene that features everything from
+                Michelin-starred restaurants to charming cafés serving pastries like croissants and éclairs. Paris is
+                also synonymous with fashion, hosting major events like Paris Fashion Week and housing luxury brands
+                such as Chanel, Louis Vuitton, and Dior. Its romantic allure is undeniable, with picturesque streets,
+                cozy cafés, and scenic views along the Seine River, making it a popular destination for couples.
+            </p>
+            <div class="card-body">
+
+                <div class="card mt-4">
+                    <div class="card-header alert alert-warning">
+                        <h4>Arrondissements of Paris</h4>
+                    </div>
+                    <ol>
+
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <li>Louvre</li>
+                                <li>Bourse</li>
+                                <li>Temple</li>
+                                <li>Hôtel-de-Ville</li>
+                                <li>Panthéon</li>
+                                <li>Luxembourg</li>
+                                <li>Palais-Bourbon</li>
+                                <li>Élysée</li>
+                                <li>Opéra</li>
+                                <li>Entrepôt</li>
+                            </div>
+
+                            <div class="col-md-6 col-sm-12">
+                                <li>Popincourt</li>
+                                <li>Reuilly</li>
+                                <li>Gobelins</li>
+                                <li>Observatoire</li>
+                                <li>Vaugirard</li>
+                                <li>Passy</li>
+                                <li>Batignolles-Monceau</li>
+                                <li>Butte-Montmartre</li>
+                                <li>Buttes-Chaumont</li>
+                                <li>Ménilmontant</li>
+                            </div>
+
+                        </div>
+                    </ol>
+
+
+                </div>
+                <div class="card mt-4">
+                    <div class="card-header alert alert-warning">
+                        <h4>Population</h4>
+                    </div>
+                    <table>
+                        <tr class="text-center">
+                            <th>Category</th>
+                            <th>Number</th>
+                        </tr>
+                        <tr>
+                            <td>Male</td>
+                            <td>1,100,000 People</td>
+                        </tr>
+                        <tr>
+                            <td>Female</td>
+                            <td>1,200,000 People</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td>2,300,000 People</td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="card mt-4">
+                    <div class="card-header alert alert-warning">
+                        <h4>Website</h4>
+                    </div>
+                    <a href="https://id.wikipedia.org/wiki/Paris" target="_blank" rel="noopener 
+                    noreferrer">https://id.wikipedia.org/wiki/Paris</a>
+                </div>
+
+            </div class="card mt-4">
+            <div class="card-header alert alert-warning">
+                <h4>Galery</h4>
+            </div>
+            <div class="" card-body>
+            </div> class="row">
+            <div class="col-4">
+                <img src="images/Paris 1.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-4">
+                <img src="images/Paris 2.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-4">
+                <img src="images/Paris 3.jpg" class="img-fluid" alt="...">
+            </div>
+
+        </div>
+
+        </div class="card mt-4">
+        <div class="card-header alert alert-warning">
+            <h4>Map</h4>
+        </div>
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="820" height="560" id="gmap_canvas"
+                    src="https://maps.app.goo.gl/NxeQp5MnwUPZeWvE9" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"></iframe><a href="https://textcaseconvert.com"></a><br><a
+                    href="https://www.timertimer.net"></a><br>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: center;
+                        height: 560px;
+                        width: 100%px;
+                    }
+
+                    </><a href="https://www.ongooglemaps.com">location map</a><style>.gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 560px;
+                        width: 100%px;
+                    }
+                </style>
+            </div>
+
+        </div class="card mt-4">
+        <div class="card-header alert alert-warning">
+            <h4>Critic and Suggestions</h4>
+        </div>
+
+        <div class="card-body">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Input your name">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Email Address</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="text-end">
+                <button type="button" class="btn btn-primary">Send</button>
+            </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Producer</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Name : Fildzah Hind Ihsamy<br>
+                        NIM  : 23/522655/SV/23746<br>
+                        Class : B
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
